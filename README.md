@@ -3,30 +3,30 @@
  **Problem description:**
  Design a vending machine.
 
- Clarify:
+ **Clarify:**
  - No more restrictions, just design a general vending machine we are familiar with.
 
- Use case list:
+ **Use case list:**
  - select item and get price
  - accept bills/coins
  - dispense items purchased and return change
  - refund when cancelling the request
  - Possible exceptions:
 
- Sold out
+ **Sold out**
  - Not fully paid
  - Not enough changes
-
+-----
 
 ## Vending Machine States & Events
 
- States
+ **States**
  - A. Inactive
  - B. Wating
  - C. Ready to dispense
  - D. Item selected
  
- Events
+ **Events**
  1. Active
  2. Cash collected
  3. Dispense item
@@ -47,3 +47,6 @@
  +----------------------------------------------------------------------------------+
  ```
 
+**References**
+- Creating a state machine in Swift: [https://rderik.com/blog/creating-a-state-machine-in-swift/]
+- Vending Machine design — A State design pattern approach: [https://medium.com/swlh/vending-machine-design-a-state-design-pattern-approach-5b7e1a026cd2]

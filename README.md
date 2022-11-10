@@ -48,5 +48,5 @@
  ```
 
 **References**
-- Creating a state machine in Swift: [https://rderik.com/blog/creating-a-state-machine-in-swift/]
-- Vending Machine design — A State design pattern approach: [https://medium.com/swlh/vending-machine-design-a-state-design-pattern-approach-5b7e1a026cd2]
+- Creating a state machine in Swift: https://rderik.com/blog/creating-a-state-machine-in-swift/
+- Vending Machine design -- A State design pattern approach: https://medium.com/swlh/vending-machine-design-a-state-design-pattern-approach-5b7e1a026cd2

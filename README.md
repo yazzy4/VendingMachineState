@@ -4,7 +4,7 @@
  Design a vending machine.
 
  Clarify:
- No more restrictions, just design a general vending machine we are familiar with.
+ - No more restrictions, just design a general vending machine we are familiar with.
 
  Use case list:
  - select item and get price
@@ -21,10 +21,10 @@
 ## Vending Machine States & Events
 
  States
- A. Inactive
- B. Wating
- C. Ready to dispense
- D. Item selected
+ - A. Inactive
+ - B. Wating
+ - C. Ready to dispense
+ - D. Item selected
  
  Events
  1. Active

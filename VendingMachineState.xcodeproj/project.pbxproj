@@ -17,6 +17,8 @@
 		916B05E5291D7CC900E882C2 /* InactiveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05E4291D7CC900E882C2 /* InactiveState.swift */; };
 		916B05E8291D7DCF00E882C2 /* WaitingForCashState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05E7291D7DCF00E882C2 /* WaitingForCashState.swift */; };
 		916B05EA291D7EC200E882C2 /* ReadyForCodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05E9291D7EC200E882C2 /* ReadyForCodeState.swift */; };
+		916B05EC291D838F00E882C2 /* ItemSelectedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05EB291D838F00E882C2 /* ItemSelectedState.swift */; };
+		916B05EE291D84F900E882C2 /* ItemDispensedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05ED291D84F900E882C2 /* ItemDispensedState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		916B05E4291D7CC900E882C2 /* InactiveState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InactiveState.swift; sourceTree = "<group>"; };
 		916B05E7291D7DCF00E882C2 /* WaitingForCashState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingForCashState.swift; sourceTree = "<group>"; };
 		916B05E9291D7EC200E882C2 /* ReadyForCodeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyForCodeState.swift; sourceTree = "<group>"; };
+		916B05EB291D838F00E882C2 /* ItemSelectedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSelectedState.swift; sourceTree = "<group>"; };
+		916B05ED291D84F900E882C2 /* ItemDispensedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDispensedState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				916B05E4291D7CC900E882C2 /* InactiveState.swift */,
 				916B05E7291D7DCF00E882C2 /* WaitingForCashState.swift */,
 				916B05E9291D7EC200E882C2 /* ReadyForCodeState.swift */,
+				916B05EB291D838F00E882C2 /* ItemSelectedState.swift */,
+				916B05ED291D84F900E882C2 /* ItemDispensedState.swift */,
 			);
 			path = States;
 			sourceTree = "<group>";
@@ -177,7 +183,9 @@
 				916B05E8291D7DCF00E882C2 /* WaitingForCashState.swift in Sources */,
 				916B05CB291D739B00E882C2 /* AppDelegate.swift in Sources */,
 				916B05E5291D7CC900E882C2 /* InactiveState.swift in Sources */,
+				916B05EC291D838F00E882C2 /* ItemSelectedState.swift in Sources */,
 				916B05E1291D745100E882C2 /* VendingMachineState.swift in Sources */,
+				916B05EE291D84F900E882C2 /* ItemDispensedState.swift in Sources */,
 				916B05CD291D739B00E882C2 /* SceneDelegate.swift in Sources */,
 				916B05DF291D741D00E882C2 /* VMStateMachine.swift in Sources */,
 				916B05EA291D7EC200E882C2 /* ReadyForCodeState.swift in Sources */,

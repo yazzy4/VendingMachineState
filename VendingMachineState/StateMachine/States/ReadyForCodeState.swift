@@ -23,4 +23,23 @@ import Foundation
 
 class ReadyForCodeState: VendingMachineState {
     
+    override func isValidNextState(_ state: VendingMachineState) -> Bool {
+        switch state {
+        case is ReadyForCodeState, is ItemSelectedState, is InactiveState:
+            return true
+        default:
+            print("DEBUG: Wrong action. You can only select an item or cancel your selection")
+            return false
+        }
+    }
+    
+    override func willExit(to state: VendingMachineState) {
+        if (state is ReadyForCodeState) {
+            print("DEBUG: Ready to receive item selection")
+        } else if (state is ItemSelectedState) {
+            print("DEBUG: Selecting item")
+        } else if (state is InactiveState) {
+            print("DEBUG: Cancelling item")
+        }
+    }
 }

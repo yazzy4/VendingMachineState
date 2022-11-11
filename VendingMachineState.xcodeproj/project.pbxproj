@@ -19,6 +19,7 @@
 		916B05EA291D7EC200E882C2 /* ReadyForCodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05E9291D7EC200E882C2 /* ReadyForCodeState.swift */; };
 		916B05EC291D838F00E882C2 /* ItemSelectedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05EB291D838F00E882C2 /* ItemSelectedState.swift */; };
 		916B05EE291D84F900E882C2 /* ItemDispensedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05ED291D84F900E882C2 /* ItemDispensedState.swift */; };
+		916B05F1291EBE4B00E882C2 /* MainEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916B05F0291EBE4B00E882C2 /* MainEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		916B05E9291D7EC200E882C2 /* ReadyForCodeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyForCodeState.swift; sourceTree = "<group>"; };
 		916B05EB291D838F00E882C2 /* ItemSelectedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSelectedState.swift; sourceTree = "<group>"; };
 		916B05ED291D84F900E882C2 /* ItemDispensedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDispensedState.swift; sourceTree = "<group>"; };
+		916B05F0291EBE4B00E882C2 /* MainEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		916B05C9291D739B00E882C2 /* VendingMachineState */ = {
 			isa = PBXGroup;
 			children = (
+				916B05EF291EBE2600E882C2 /* Event */,
 				916B05E2291D7C7800E882C2 /* StateMachine */,
 				916B05E3291D7CA100E882C2 /* App */,
 				916B05D8291D73A000E882C2 /* Info.plist */,
@@ -107,6 +110,14 @@
 				916B05ED291D84F900E882C2 /* ItemDispensedState.swift */,
 			);
 			path = States;
+			sourceTree = "<group>";
+		};
+		916B05EF291EBE2600E882C2 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				916B05F0291EBE4B00E882C2 /* MainEvent.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				916B05E8291D7DCF00E882C2 /* WaitingForCashState.swift in Sources */,
+				916B05F1291EBE4B00E882C2 /* MainEvent.swift in Sources */,
 				916B05CB291D739B00E882C2 /* AppDelegate.swift in Sources */,
 				916B05E5291D7CC900E882C2 /* InactiveState.swift in Sources */,
 				916B05EC291D838F00E882C2 /* ItemSelectedState.swift in Sources */,
